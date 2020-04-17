@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "next",
-      "build": "next build",
-      "start": "next start"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/dlombard-net/dlombard-net.github.io#readme",
   "dependencies": {
+    "command-line-args": "^4.0.7",
     "next": "^9.3.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
